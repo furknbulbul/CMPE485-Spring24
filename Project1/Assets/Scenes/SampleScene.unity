@@ -172,8 +172,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 7.3794556, y: 10.600492, z: 7.1384697}
-  m_Center: {x: -0.7101774, y: 2.6535203, z: -0.5541793}
+  m_Size: {x: 13.225008, y: 13.721679, z: 7.1384697}
+  m_Center: {x: 0.4348898, y: 4.214106, z: -0.5541793}
 --- !u!82 &49404706
 AudioSource:
   m_ObjectHideFlags: 0
@@ -188,13 +188,13 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.245
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 1.0266402
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -438,7 +438,7 @@ SphereCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 289574658}
-  m_Material: {fileID: 13400000, guid: 7dd6957f472ac437aa74639b4a44d30c, type: 2}
+  m_Material: {fileID: 13400000, guid: 2b36f9ccd38b54ab8bcbcc0b06f634f6, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -531,7 +531,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 10
   m_Drag: 0
-  m_AngularDrag: 0.3
+  m_AngularDrag: 3
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -644,7 +644,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 336150795}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.83, y: 3.15, z: 4.5}
+  m_LocalPosition: {x: -10.83, y: 5.78, z: 4.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -716,17 +716,17 @@ MonoBehaviour:
   m_YDamping: 1
   m_ZDamping: 1
   m_TargetMovementOnly: 1
-  m_ScreenX: 0.5
-  m_ScreenY: 0.5
+  m_ScreenX: 0.445
+  m_ScreenY: 0.78388226
   m_CameraDistance: 25
-  m_DeadZoneWidth: 0
+  m_DeadZoneWidth: 0.0017079419
   m_DeadZoneHeight: 0
   m_DeadZoneDepth: 0
   m_UnlimitedSoftZone: 0
   m_SoftZoneWidth: 0.8
   m_SoftZoneHeight: 0.8
   m_BiasX: 0
-  m_BiasY: 0
+  m_BiasY: -0.00000014901161
   m_CenterOnActivate: 1
   m_GroupFramingMode: 2
   m_AdjustmentMode: 0
@@ -1082,7 +1082,7 @@ GameObject:
   - component: {fileID: 704305799}
   - component: {fileID: 704305798}
   m_Layer: 0
-  m_Name: BouncyPlatform4
+  m_Name: MoreBouncyPlatform4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1547,7 +1547,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 774785038}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.83, y: 3.15, z: 0}
+  m_LocalPosition: {x: -10.83, y: 5.78, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1746,14 +1746,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.4058356, y: 0, z: 0, w: 0.91394615}
-  m_LocalPosition: {x: 6.07, y: 14.823809, z: -23.8719}
+  m_LocalRotation: {x: 0.16835615, y: 0, z: 0, w: 0.98572624}
+  m_LocalPosition: {x: 8.095224, y: 13.743759, z: -32.091404}
   m_LocalScale: {x: 1, y: 1, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 47.887, y: 0, z: -2.965}
+  m_LocalEulerAnglesHint: {x: 47.566, y: 0, z: 0}
 --- !u!114 &963194229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2176,15 +2176,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1298001905}
-  m_LocalRotation: {x: 0.4058356, y: 0, z: 0, w: 0.91394615}
-  m_LocalPosition: {x: 6.07, y: 14.823809, z: -23.8719}
+  m_LocalRotation: {x: 0.16835615, y: -0, z: -0, w: 0.98572624}
+  m_LocalPosition: {x: 8.095224, y: 13.743759, z: -32.091404}
   m_LocalScale: {x: 1, y: 1, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 422124654}
   m_Father: {fileID: 0}
   m_RootOrder: 21
-  m_LocalEulerAnglesHint: {x: 47.887, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 19.385, y: 0, z: 0}
 --- !u!1 &1481624051
 GameObject:
   m_ObjectHideFlags: 0
@@ -2503,7 +2503,7 @@ GameObject:
   - component: {fileID: 1853181281}
   - component: {fileID: 1853181280}
   m_Layer: 0
-  m_Name: BouncyPlatform3
+  m_Name: MoreBouncyPlatform3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2616,7 +2616,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 09730c5e1c388413ea6316d056abdfdd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.012667358
+      value: -0.1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 09730c5e1c388413ea6316d056abdfdd, type: 3}
       propertyPath: m_LocalPosition.z

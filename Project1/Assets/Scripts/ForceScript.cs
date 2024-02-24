@@ -9,12 +9,13 @@ public class ForceScript : MonoBehaviour
 
     protected Rigidbody rb;  
     
-    float k = 5f; // Spring constant
+    float k = 30f; // Spring constant
     Vector3 startPos;
 
     // Start is called before the first frame update
     void Start()
     {
+        
         rb = GetComponent<Rigidbody>();
         rb.velocity = new Vector3(10, 0, 0); // Initial velocity
         startPos = rb.position;
