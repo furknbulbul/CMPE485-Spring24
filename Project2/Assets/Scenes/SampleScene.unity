@@ -390,8 +390,8 @@ MonoBehaviour:
   - {x: 5, y: 0}
   - {x: 2, y: 5}
   - {x: 2, y: 2}
-  KeyPositionIndex: {x: 4, y: 1}
-  ChestPositionIndex: {x: 4, y: 2}
+  KeyPositionIndex: {x: 5, y: 3}
+  ChestPositionIndex: {x: 3, y: 3}
   DragonPositionIndexes:
   - {x: 5, y: 3}
   - {x: 2, y: 5}
